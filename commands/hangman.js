@@ -105,3 +105,4 @@ module.exports = {
 function displayWord(wordArray, guessedLetters) {
   return wordArray.map((char) => (guessedLetters.has(char) ? char : '_')).join(' ');
 }
+//test
